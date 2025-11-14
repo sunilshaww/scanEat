@@ -1,4 +1,33 @@
-streamlit==1.31.0
-Pillow==10.2.0
-numpy==1.26.3
-requests==2.31.0
+streamlit>=1.31.0
+Pillow>=10.0.0
+numpy>=1.24.0
+requests>=2.31.0
+```
+
+5. **Scroll down** to "Commit changes"
+
+6. **Type:** "Fix Pillow version for deployment"
+
+7. **Click** "Commit changes" (green button)
+
+8. **Go back** to Streamlit Cloud tab
+
+9. **Wait 30 seconds** - it will auto-redeploy!
+
+---
+
+## ✨ What Changed?
+
+**Old (broken):**
+- `Pillow==10.2.0` ❌ (exact version, incompatible)
+
+**New (fixed):**
+- `Pillow>=10.0.0` ✅ (flexible, compatible)
+
+---
+
+## 🎯 After Fixing:
+
+Your deployment will succeed and you'll get your live link!
+
+**Do this now and tell me when done!** Once you commit the change, Streamlit will automatically redeploy in about 1 minute. 🚀
